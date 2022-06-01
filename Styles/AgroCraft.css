@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+:root{
+  --orange:#20fa3d;
+}
+
+header{
+	position: fixed;
+	top:0; left: 0; right:0;
+	background:#333;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding:2rem 9%;
+  }
+  
+  header .logo{
+	font-size: 2.5rem;
+	font-weight: bolder;
+	color:#fff;
+	text-transform: uppercase;
+  }
+  
+  header .logo span{
+	color:var(--orange);
+  }
+  
+  header .navbar a{
+	color:#fff;
+	font-size: 2rem;
+	margin:0 .8rem;
+  }
+  
+  header .navbar a:hover{
+	color:var(--orange);
+  }
+  
+  header .icons i{
+	font-size: 2.5rem;
+	color:#fff;
+	cursor: pointer;
+	margin-right: 2rem;
+  }
+  
+  header .icons i:hover{
+	color:var(--orange);
+  }
+  
+  #menu-bar{
+	color:#fff;
+	border:.1rem solid #fff;
+	border-radius: .5rem;
+	font-size: 3rem;
+	padding:.5rem 1.2rem;
+	cursor: pointer;
+	display: none;
+  }
+
+  
+  .home{
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+	position: relative;
+	z-index: 0;
+	
+  }
+  
+  .home .content{
+	text-align: center;
+  }
+  
+  .home .content h3{
+	font-size: 4.5rem;
+	color:rgb(0, 0, 0);
+
+	
+  }
+  
+  .home .content p{
+	font-size: 2.5rem;
+	color:rgb(0, 0, 0);
+	padding:.5rem 0;
+  }
+  header .content label a{
+	color: rgb(146, 64, 64);
+
+  }
+  
+  .home .video-container img{
+	position: absolute;
+	top:0; left: 0;
+	z-index: -1;
+	height: 100%;
+	width:100%;
+	object-fit:cover;
+  }
+  
+  .home .controls{
+	padding:1rem;
+	border-radius: 5rem;
+	background:rgba(0,0,0,.7);
+	position: relative;
+	top:10rem;
+  }
+  
+  /*.home .controls .vid-btn{
+	height:2rem;
+	width:2rem;
+	display: inline-block;
+	border-radius: 50%;
+	background:rgb(0, 0, 0);
+	cursor: pointer;
+	margin:0 .5rem;
+  }
+  
+  .home .controls .vid-btn.active{
+	background:var(--orange);
+  }*/
+  
+body {
+	background-image:url(Images\Website\images.jpg); 
+	background-repeat:repeat;
+	/*background-position: center center;*/
+	text-align: center;
+	background-size:100% 100%;
+	background-attachment: fixed;
+}
+
+
+#WELCOME{
+	font-size: 100px;
+	font-family: 'Cormorant Infant', serif;
+	font-weight: bold;
+	font-family: 'Cormorant Infant', serif;
+	margin-top: 8%;
+	/* padding: 2%; */
+	opacity: 75%;
+	text-shadow: 2px 2px black;
+	}
+ 
+#are{
+	font-family: 'Cormorant Infant', serif;
+	font-weight: bold;
+	opacity: 100%;
+	padding-top: 1%;	
+	font-size:85px;
+	text-shadow: 2px 2px black;
+}
+
+#linebreak{
+	display:block;
+	margin-bottom: 0.5em;
+}
+
+ #Farmerbutton{
+	 color:floralwhite;
+	align-items: center;
+	background-color:transparent;
+	font-size: 40px;
+	padding: 10px 28px;
+	background-color:black;
+	border:none;
+	
+}
+
+#link {
+	color:rgb(255, 253, 253);
+	text-decoration: none;
+	
+	font-size: 2rem;
+     margin:0 .8rem;
+}
+
+header .content a{
+   color: rgb(144, 19, 19);
+   font-size: 2rem;
+   margin: 0 .8rem;
+}
+#link:hover{
+	color: var(--orange);
+
+
+    
+	
+}
