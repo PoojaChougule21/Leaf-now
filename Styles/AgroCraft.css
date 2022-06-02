@@ -75,9 +75,9 @@ header{
   
   .home .content h3{
 	font-size: 4.5rem;
-	color:rgb(0, 0, 0);
-
-	
+	color:rgb(255, 245, 245);
+	text-transform: uppercase;
+	text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
   }
   
   .home .content p{
